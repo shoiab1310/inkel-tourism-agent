@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(120deg, #e0c3fc, #8ec5fc);
+    min-height: 100vh;
+}
+.card, #chat-window {
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.19);
+    border-radius: 14px;
+}
+.btn-success, .btn-primary {
+    background: linear-gradient(90deg, #fccf31 0%, #f55555 100%);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+.btn-danger {
+    background: linear-gradient(90deg, #7f7fd5 0%, #86a8e7 100%);
+    border: none;
+}
+.chat-bubble {
+    border-radius: 1.6em;
+    font-size: 1.06em;
+    box-shadow: 0 2px 7px rgba(80,80,80,0.10);
+    padding: 0.75em 1.2em;
+    max-width: 90%;
+    word-break: break-word;
+    margin-bottom: 0.5em;
+    display: inline-block;
+}
+.text-end .chat-bubble {
+    background: #294d90;
+}
+.text-start .chat-bubble {
+    background: #45b649;
+}
+h1, h3 {
+    font-weight: 700;
+    color: #294d90;
+}
+.alert {
+    border-radius: 1em;
+    font-weight: 600;
+}
+input:focus, textarea:focus, select:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 0.1rem #294d90 !important;
+}
